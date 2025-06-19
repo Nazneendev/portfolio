@@ -1,14 +1,15 @@
-import React from 'react'
-import Container from '../Container'
+
+
 
 import { Link } from "react-router-dom";
-
+import Container from "../Container.jsx";
 
 
 const Header = () => {
   return (
    <>
  <div className="bg-[#00283A] fixed top-0 left-0 w-full z-50">
+
     <Container>
       <div className="navbar ">
         <div className="navbar-start">

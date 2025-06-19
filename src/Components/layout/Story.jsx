@@ -1,6 +1,6 @@
 import React from "react";
 import { SiComma } from "react-icons/si";
-import Flex from "../Flex";
+
 import Images from "../Images";
 import video from "../../assets/video.jpg";
 import { MdOutlinePlayCircleFilled } from "react-icons/md";
@@ -21,6 +21,7 @@ import lw2 from "../../assets/lw2.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Flex from "../Flex";
 
 const Story = () => {
   // slider
@@ -251,7 +252,6 @@ const Story = () => {
                   Hourly Payment
                 </h3>
                 <h3 className="text-textColor text-[30px] font-bold font-poppin text-center gap-5">
-                  
                   <span className="text-textColor font-medium text-[14px]">
                     $
                   </span>
@@ -329,100 +329,98 @@ const Story = () => {
               <h6 className="text-[#545454] font-poppin ">05</h6>
             </div>
             <div className="ml-[235px] w-full">
-
-            <Slider {...settings}>
-              <div className="relative">
-                <div className=" mt-10 pl-[10px]">
-                  <div className="bg-bgColor w-[700px] py-[50px]  rounded-[10px]">
-                    <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
-                      <Images
-                        imgSrc={t1}
-                        imgAlt={t1}
-                        className={"h-full object-cover w-full"}
-                      />
-                    </div>
-                    <div className="">
-                      <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
-                        Paul Freeman
-                      </h3>
-                      <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
-                        <i>Interior Designer</i>
-                      </h6>
-                      <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
-                        lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Doloribus, cumque.lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus, cumque.lorem
-                        ipsum dolor sit amet, consectetur adipisicing elit.
-                        Doloribus, cumque.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className=" mt-10 pl-[10px]">
-                  <div className="bg-bgColor w-[700px] py-[50px] rounded-[10px]">
-                    <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
-                      <Images
-                        imgSrc={t2}
-                        imgAlt={t2}
-                        className={"h-full object-cover w-full"}
-                      />
-                    </div>
-                    <div className="">
-                      <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
-                        Paul Freeman
-                      </h3>
-                      <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
-                        <i>Interior Designer</i>
-                      </h6>
-                      <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
-                        lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Doloribus, cumque.lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus, cumque.lorem
-                        ipsum dolor sit amet, consectetur adipisicing elit.
-                        Doloribus, cumque.
-                      </p>
+              <Slider {...settings}>
+                <div className="relative">
+                  <div className=" mt-10 pl-[10px]">
+                    <div className="bg-bgColor w-[700px] py-[50px]  rounded-[10px]">
+                      <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
+                        <Images
+                          imgSrc={t1}
+                          imgAlt={t1}
+                          className={"h-full object-cover w-full"}
+                        />
+                      </div>
+                      <div className="">
+                        <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
+                          Paul Freeman
+                        </h3>
+                        <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
+                          <i>Interior Designer</i>
+                        </h6>
+                        <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
+                          lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Doloribus, cumque.lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit. Doloribus, cumque.lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Doloribus, cumque.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div>
-                <div className=" mt-10 pl-[10px]">
-                  <div className="bg-bgColor w-[700px] py-[50px] rounded-[10px]">
-                    <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
-                      <Images
-                        imgSrc={t3}
-                        imgAlt={t3}
-                        className={"h-full object-cover w-full"}
-                      />
-                    </div>
-                    <div className="">
-                      <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
-                        Paul Freeman
-                      </h3>
-                      <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
-                        <i>Interior Designer</i>
-                      </h6>
-                      <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
-                        lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Doloribus, cumque.lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Doloribus, cumque.lorem
-                        ipsum dolor sit amet, consectetur adipisicing elit.
-                        Doloribus, cumque.
-                      </p>
+                <div>
+                  <div className=" mt-10 pl-[10px]">
+                    <div className="bg-bgColor w-[700px] py-[50px] rounded-[10px]">
+                      <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
+                        <Images
+                          imgSrc={t2}
+                          imgAlt={t2}
+                          className={"h-full object-cover w-full"}
+                        />
+                      </div>
+                      <div className="">
+                        <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
+                          Paul Freeman
+                        </h3>
+                        <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
+                          <i>Interior Designer</i>
+                        </h6>
+                        <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
+                          lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Doloribus, cumque.lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit. Doloribus, cumque.lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Doloribus, cumque.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </Slider>
+                <div>
+                  <div className=" mt-10 pl-[10px]">
+                    <div className="bg-bgColor w-[700px] py-[50px] rounded-[10px]">
+                      <div className="w-[100px] h-[100px] rounded-full overflow-hidden mx-auto">
+                        <Images
+                          imgSrc={t3}
+                          imgAlt={t3}
+                          className={"h-full object-cover w-full"}
+                        />
+                      </div>
+                      <div className="">
+                        <h3 className="font-poppin font-semibold text-[25px] text-textColor mt-5 text-center">
+                          Paul Freeman
+                        </h3>
+                        <h6 className="font-poppin font-semibold text-[18px] text-btnColor mt-5 text-center">
+                          <i>Interior Designer</i>
+                        </h6>
+                        <p className="font-poppin font-medium text-[14px] p-5 text-textColor mt-5 text-center">
+                          lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Doloribus, cumque.lorem ipsum dolor sit amet,
+                          consectetur adipisicing elit. Doloribus, cumque.lorem
+                          ipsum dolor sit amet, consectetur adipisicing elit.
+                          Doloribus, cumque.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Slider>
             </div>
-
           </div>
         </section>
         <section>
           <div className="max-w-sContainer mx-auto justify-center ">
-             <div className="flex gap-7 mt-20 pl-[17px]">
+            <div className="flex gap-7 mt-20 pl-[17px]">
               <h3 className="text-[#dedee0] text-[24px] font-poppin font-semibold pl-[230px]">
                 Latest Publications
               </h3>
@@ -434,39 +432,61 @@ const Story = () => {
             <div className="w-[700px] flex mt-10 ml-[235px] gap-10">
               <div className="bg-bgColor  w-[335px] h-[485px] rounded-[10px] relative">
                 <div className="absolute top-0 left-0 w-full h-full rounded-t-lg">
-                  <Images imgSrc={lw1} imgAlt={lw1}/>
+                  <Images imgSrc={lw1} imgAlt={lw1} />
                 </div>
                 <div className="absolute top-[230px] text-center">
-            <h6 className="text-[#bebbbb] font-medium  font-poppin text-[18px] pt-5">Life Style</h6>
-                <h3 className="text-textColor font-medium font-poppin text-[20px] p-5">Create your own beauty blog with trueman</h3>
-                <p className="text-[#545454] ">....................................................</p>
-                <div className="flex gap-3 pt-5  px-[75px] text-center absolute">
-                  <p className="text-[#545454] font-medium  font-poppin text-[14px]">14 July .</p>
-                  <p className="text-[#545454] font-medium font-poppin text-[14px]">14:30 .</p>
-                  <p className="text-[#545454] font-medium font-poppin text-[14px]">Emma.T</p>
+                  <h6 className="text-[#bebbbb] font-medium  font-poppin text-[18px] pt-5">
+                    Life Style
+                  </h6>
+                  <h3 className="text-textColor font-medium font-poppin text-[20px] p-5">
+                    Create your own beauty blog with trueman
+                  </h3>
+                  <p className="text-[#545454] ">
+                    ....................................................
+                  </p>
+                  <div className="flex gap-3 pt-5  px-[75px] text-center absolute">
+                    <p className="text-[#545454] font-medium  font-poppin text-[14px]">
+                      14 July .
+                    </p>
+                    <p className="text-[#545454] font-medium font-poppin text-[14px]">
+                      14:30 .
+                    </p>
+                    <p className="text-[#545454] font-medium font-poppin text-[14px]">
+                      Emma.T
+                    </p>
+                  </div>
                 </div>
-                </div>
-                
               </div>
               <div className="bg-bgColor  w-[335px] h-[485px] rounded-[10px] relative">
                 <div className="absolute top-0 left-0 w-full h-full ">
                   <Images imgSrc={lw2} imgAlt={lw2} w-full h-full />
                 </div>
                 <div className="absolute top-[230px] text-center">
-            <h6 className="text-[#bebbbb] font-medium  font-poppin text-[18px] pt-5">Life Style</h6>
-                <h3 className="text-textColor font-medium font-poppin text-[20px] p-5">Create your own beauty blog with trueman</h3>
-                <p className="text-[#545454] ">....................................................</p>
-                <div className="flex  gap-3 pt-5 px-[75px] text-center absolute">
-                  <p className="text-[#545454] font-medium  font-poppin text-[14px]">14 July .</p>
-                  <p className="text-[#545454] font-medium font-poppin text-[14px]">14:30 .</p>
-                  <p className="text-[#545454] font-medium font-poppin text-[14px]">Emma.T</p>
-                </div>
+                  <h6 className="text-[#bebbbb] font-medium  font-poppin text-[18px] pt-5">
+                    Life Style
+                  </h6>
+                  <h3 className="text-textColor font-medium font-poppin text-[20px] p-5">
+                    Create your own beauty blog with trueman
+                  </h3>
+                  <p className="text-[#545454] ">
+                    ....................................................
+                  </p>
+                  <div className="flex  gap-3 pt-5 px-[75px] text-center absolute">
+                    <p className="text-[#545454] font-medium  font-poppin text-[14px]">
+                      14 July .
+                    </p>
+                    <p className="text-[#545454] font-medium font-poppin text-[14px]">
+                      14:30 .
+                    </p>
+                    <p className="text-[#545454] font-medium font-poppin text-[14px]">
+                      Emma.T
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-
       </div>
     </>
   );
