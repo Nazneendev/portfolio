@@ -23,6 +23,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Flex from "../Flex";
 
+
+
 const Story = () => {
   // slider
 
@@ -37,6 +39,7 @@ const Story = () => {
   };
   return (
     <>
+   
       <div className="py-[100px]">
         <div className="max-w-sContainer mx-auto justify-end flex">
           <div className="flex justify-between gap-10 mt-[-180px] absolute ">
@@ -233,7 +236,7 @@ const Story = () => {
                 </div>
               </div>
             </div>
-
+            {/* Price plan */}
             <div className="flex gap-7 mt-20 pl-[17px]">
               <h3 className="text-[#dedee0] text-[24px] font-poppin font-semibold pl-[230px]">
                 Price Plans
@@ -255,7 +258,7 @@ const Story = () => {
                   <span className="text-textColor font-medium text-[14px]">
                     $
                   </span>
-                  29
+                  20
                   <span className="text-textColor font-medium text-[14px]">
                     h
                   </span>
@@ -291,7 +294,7 @@ const Story = () => {
                   <span className="text-textColor font-medium text-[14px]">
                     $
                   </span>
-                  2500
+                  1500
                   <span className="text-textColor font-medium text-[14px]">
                     h
                   </span>
@@ -329,6 +332,7 @@ const Story = () => {
               <h6 className="text-[#545454] font-poppin ">05</h6>
             </div>
             <div className="ml-[235px] w-full">
+            {/* client story */}
               <Slider {...settings}>
                 <div className="relative">
                   <div className=" mt-10 pl-[10px]">
@@ -415,6 +419,7 @@ const Story = () => {
                   </div>
                 </div>
               </Slider>
+              {/* client story end */}
             </div>
           </div>
         </section>
